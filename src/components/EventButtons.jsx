@@ -20,7 +20,7 @@ function EventButtons() {
 
   return (
     <div>
-      <h1>Guess the Number</h1>
+      <h1>Guess which Number</h1>
       {guesses.map((n) => (<button key={nanoid()} onClick={() => makeGuess(n)}>{n}</button>))}
     </div>
   )
